@@ -1,0 +1,75 @@
+
+body {background-color: #dff0ea;
+	font-family: roboto; 
+	text-align: center;
+    font-weight: normal;
+    font-size: 17px}
+
+
+
+h1,h2{font-family: roboto;
+text-align: center;}
+
+
+h1{font-weight: bolder;
+    text-decoration: underline;
+    font-size: 30px;
+    color:#4f3a65}
+
+
+ h2 {font-weight: bold;;
+    font-size: 25px;
+    color: #574f7d;}
+
+a{text-decoration: none;
+color: #95adbe;
+font-weight: bold;}
+
+a:hover{color: rgb(30,30,30);}
+
+
+.card-white{width: 700px; 
+    padding: 60px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    background: white;
+    border-radius: 4px;
+   color: rgb(30,30,30)}
+
+.img-circle {border-radius: 50%;}
+
+@media (max-width: 960px) {
+	.container{width: 700px;}
+}
+
+@media (max-width: 720px) {
+	.container{width:500px;}
+}
+
+@media (max-width: 540px) {
+	.container{width: 300px;}
+
+
+
+.btn-blue{background-color:#95adbe; 
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px}
+
+.btn-blue:hover{color:white
+background-color:black;}
+
+.list-inline{list-style:none;
+padding-left: 0px;}
+
+.list-inline li{display: inline;
+padding:10px;}
+
+.list-inline i{font-size: 50px;
+	color: rgb(230,230,230);}
+
+.list-inline i:hover{font-size: 50px;
+	color: black}
+
+
+#introduction p {margin-bottom: 40px}
